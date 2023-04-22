@@ -11,7 +11,7 @@ def play_game():
         if guess < secret_number:
             print("Too low! Try again.")
         elif guess > secret_number:
-            print("Too high! Try again.")
+            print("Too high! Try again...")
         else:
             print(f"Congratulations! You guessed the secret number in {attempts} attempts.")
             break
